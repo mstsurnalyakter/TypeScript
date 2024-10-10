@@ -1,0 +1,11 @@
+var userName = ["surnaly", "akter", "tisha"];
+var friendsName = ["rita", "mita", "alex"];
+var multipleType = ["surnaly", true, 20, "akter"];
+var multipleTypeArr = ["moon", false, 10];
+var userId;
+var isActive;
+console.log(userName[1]);
+console.log(friendsName);
+console.log(multipleType);
+console.log(multipleTypeArr);
+console.log(userName.sort());
