@@ -1,0 +1,23 @@
+*{
+    background-color: teal;
+    color: rgb(196, 193, 193);
+
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+input,textarea{
+    border: 2px solid whitesmoke;
+    padding: 2px;
+}
+button{
+    background:#f3836f;
+    color: #000;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>User Registration</h2>
+    <form action="" class="user-form">
+        <section>
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name">
+        </section>
+        <section>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </section>
+        <section>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="bangladesh">Bangladesh</option>
+                <option value="italy">Italy</option>
+                <option value="london">London</option>
+            </select>
+        </section>
+        <section>
+            <label for="feedback">Country</label>
+          <textarea name="feedback" id="feedback" cols="" rows="10"></textarea>
+        </section>
+        <section>
+            <button type="submit">Save</button>
+        </section>
+    </form>
+
+    <script src="../dist/index.js"></script>
+</body>
+</html>
