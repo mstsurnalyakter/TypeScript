@@ -5,3 +5,7 @@
  *  "noUnusedParameters": true,
  *   "include": ["./src"],
  */
+
+/**
+ * tsc index.ts --watch
+ */
